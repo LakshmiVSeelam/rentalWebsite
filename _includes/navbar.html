@@ -13,7 +13,7 @@
                 {% for link in site.nav %}
                 <li
                     class="nav-item mr-2 position-relative {% if page.url == link.url %} active {% endif %} {% if page.url == '/' and link.url == '/index.html' %} active {% endif %} ">
-                    <a class="nav-link py-1 text-secondary text-uppercase" href="{{site.baseurl}}/{{ link.url }}">
+                    <a class="nav-link py-1 text-secondary text-uppercase" href="{{site.baseurl}}{{ link.url }}">
                         <span> {{ link.text }}</span>
                     </a>
 
