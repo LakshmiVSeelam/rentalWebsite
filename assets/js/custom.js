@@ -25,7 +25,7 @@ $(document).ready(function () {
         let temp = '<div class="col-6 my-5 mx-auto">' +
             '<a href="">' +
             '<div class="card rounded-0">' +
-            '<img src="site.baseurl/assets/img/service' + elem.id + '.jpg" class="card-img-top rounded-0" alt="Service Image">' +
+            '<img src="' + baseurl + '/assets/img/service"' + elem.id + '.jpg" class="card-img-top rounded-0" alt="Service Image">' +
             '<div class="card-body bg-primary text-center">' +
             '<p class="card-text font-weight-bold h5 text-white">' + elem.serviceName + '</p>' +
             '</div>' +
